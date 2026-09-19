@@ -1,0 +1,24 @@
+What is Apache Kafka and how does it work?
+	- publisher, broker, subscriber (pub-sub architecture)
+	- core components of ecosystem: kafka broker, kafka client, kafka connect, kafka streams, KSQL
+
+Apache Kafka Core Concepts:
+	- producer, consumer, broker (kafka server), cluster, topic (unique name for a data stream), partitions (topic partitions), offset (partition offset), consumer groups
+	- other terminologies: message record
+
+Kafka Connect Core Concepts:
+	- source connector, sink connector
+	- kafka connect framwork (java classes - source connector: SourceConnector, SourceTask, sink connector: SinkConnector, SinkTask)
+	- single message transformations
+	- kafka connect architecture
+
+Kafka Streams Core Concepts:
+	- architecture
+	- task reassignment between machines and threads
+
+KSQL
+	- interactive mode and headless mode
+	- components: KSQL engine, REST interface, KSQL Client (CLI/UI)
+
+Kafka APIs
+	- Admin API, Producer API, Consumer API, Streams API, Connect API
