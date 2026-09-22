@@ -1,5 +1,11 @@
 D:\harsh\Program Files\kafka_2.13-4.3.1 => mapped to => K:
-K:\>
+
+subst K: "D:\harsh\Program Files\kafka_2.13-4.3.1"
+K:
+
+rmdir /s /q "D:\harsh\Program Files\kafka_2.13-4.3.1\kafka-logs"
+mkdir "D:\harsh\Program Files\kafka_2.13-4.3.1\kafka-logs"
+bin\windows\kafka-storage.bat format -t BFBoTJOHQhqS455eVkI55g -c config\server.properties
 
 to start the kafka broker: bin\windows\kafka-server-start.bat config\server.properties
 to create topic: bin\windows\kafka-topics.bat --create --topic test-topic --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1

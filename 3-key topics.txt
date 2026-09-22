@@ -1,0 +1,22 @@
+what is apache kafka and why is it used - understand kafka in microservices
+kafka topic
+kafka partitions
+kafka producer
+kafka consumer
+kafka broker
+kafka cluster
+consumer groups
+kafka architecture
+zookeepers role in kafka
+kafka offset
+how does kafka achieve high throughput and low latency
+how kafka ensures message durability
+how does kafka handle fault tolerance
+kafka replication factor
+role of partition leader and followers in kafka
+kafka retention policy
+kafka's exactly once semantics (EOS)
+kafka transactions
+kafka streams API
+log compaction in kafka
+when should you not use kafka
